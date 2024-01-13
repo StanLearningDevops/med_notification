@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Data{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    {% for data in object_list %}    
+        <div class="col-6 col-md-4">
+        <div class="card text-center mb-3 mr-3">
+            <div class="card-body">
+              <h5 class="card-title">{{ data.patient.first_name}} card</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+              <p class="card-text">{{ data.patient.first_name }} {{ data.patient.last_name }} was Diagnosed for
+                {{ data.detail }}
+              </p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+
+      <br/>
+      {% endfor %}
+    </div>
+{% endblock content %}
