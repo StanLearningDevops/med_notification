@@ -56,7 +56,6 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    # 'django.contrib.staticfiles.middleware.StaticFilesMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -162,7 +161,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 # CSRF_COOKIE_DOMAIN = None
-CSRF_TRUSTED_ORIGINS = ['https://notificationsystem-production-2a75.up.railway.app',]
+CSRF_TRUSTED_ORIGINS = ['https://stanleyakarulam.pythonanywhere.com']
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
