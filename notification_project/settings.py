@@ -165,10 +165,10 @@ CSRF_TRUSTED_ORIGINS = ['https://stanleyakarulam.pythonanywhere.com']
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'abuumair.dev@gmail.com'
+DEFAULT_FROM_EMAIL = 'akarulamstanley@gmail.com'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'abuumair.dev@gmail.com'
-EMAIL_HOST_PASSWORD = 'ojufojfgbtngrksl'
+EMAIL_HOST_USER = 'akarulamstanley@gmail.com'
+EMAIL_HOST_PASSWORD = 'dvcpqdqzmizvvckt'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
