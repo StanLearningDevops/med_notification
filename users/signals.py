@@ -14,8 +14,8 @@ def handle_brute_force_attack(sender, request, **kwargs):
                 in CustomUser.objects.filter(is_admin=True) ]
     
     subject = "Illegal Login Attempt In your Data App"
-    email_sender = 'abuumair.dev@gmail.com'
-    email_password = 'qjipdmifnjddfvbk'
+    email_sender = 'akarulamstanley@gmail.com'
+    email_password = 'dvcpqdqzmizvvckt'
     headers = {
         "From": "Data App Notification"
     }
